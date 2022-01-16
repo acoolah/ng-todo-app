@@ -1,0 +1,9 @@
+<header>
+  <h1 class="title">Angular To-Do</h1>
+  <app-button
+    *ngIf="hasRoute('/')"
+    color="{{ showForm ? '#DA5454' : '#4682B4' }}"
+    text="{{ showForm ? 'Close' : 'Add' }}"
+    (btnClick)="toggleAddTask()"
+  ></app-button>
+</header>

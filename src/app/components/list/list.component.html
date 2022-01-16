@@ -1,0 +1,10 @@
+<app-add-task-form
+  *ngIf="showForm"
+  (addTaskEvent)="doAddTask($event)"
+></app-add-task-form>
+<app-task-item
+  *ngFor="let item of list"
+  [task]="item"
+  (deleteTaskEvent)="doDelete(item)"
+  (toggleReminderEvent)="doToggleReminder(item)"
+></app-task-item>

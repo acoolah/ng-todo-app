@@ -1,0 +1,11 @@
+<div
+  [class]="{ reminder: task.reminder }"
+  class="task"
+  (dblclick)="toggleReminder(task)"
+>
+  <h3>
+    {{ task.text }}
+    <fa-icon (click)="deleteTask(task)" class="delBtn" [icon]="icon"></fa-icon>
+  </h3>
+  <p>{{ task.day }}</p>
+</div>

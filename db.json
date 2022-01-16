@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1642330957376,
+      "text": "Click on the ADD button above",
+      "day": "to add your own task",
+      "reminder": false
+    },
+    {
+      "id": 1642331077838,
+      "text": "It's a task's title",
+      "day": "The deadline here",
+      "reminder": false
+    },
+    {
+      "id": 1642331126142,
+      "text": "Colored task - is a reminder",
+      "day": "Use double click on task to switch the reminder status",
+      "reminder": true
+    },
+    {
+      "id": 1642331359796,
+      "text": "Click twice on me!",
+      "day": "ASAP",
+      "reminder": false
+    },
+    {
+      "id": 1642331365886,
+      "text": "Your computer = your task store",
+      "day": "it means that your tasks are stored in db.json file",
+      "reminder": false
+    },
+    {
+      "id": 1642331370836,
+      "text": "Have a good day",
+      "day": "and thanks for visit",
+      "reminder": true
+    }
+  ]
+}

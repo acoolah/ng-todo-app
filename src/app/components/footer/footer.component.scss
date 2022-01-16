@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 20px 0 0 0;
+
+  text-align: center;
+
+  p {
+    opacity: 0.4;
+  }
+
+  a {
+    color: inherit;
+
+    opacity: 0.4;
+
+    margin: 5px 0 0 0;
+
+    transition: all 0.2s ease 0s;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+}
